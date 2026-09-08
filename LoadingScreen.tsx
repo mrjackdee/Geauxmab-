@@ -55,9 +55,9 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ isLoading }) => {
                   visible: { opacity: 1, y: 0, filter: "blur(0px)" }
                 }}
                 transition={{ duration: 1.2, ease: "easeOut" }}
-                className="text-4xl md:text-6xl font-bold tracking-tighter text-center mb-2 loading-text-shadow"
+                className="signature-text text-5xl md:text-7xl lg:text-8xl text-center mb-2 py-4 px-6 overflow-visible loading-text-shadow"
               >
-                GeauxMAB.com
+                Geauxmab.com
               </motion.h1>
 
               <motion.div
